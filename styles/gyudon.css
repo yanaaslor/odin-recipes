@@ -1,0 +1,90 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Garamond, sans-serif;
+}
+
+main {
+    margin-left: 2rem;
+    font-size: 12px;
+    width: 70%;
+}
+
+h1.title,
+h2,
+h3 {
+    margin: 8px 0;
+    color: rgb(142, 66, 0);
+}
+
+nav.navigation{
+    background-color: rgb(142, 66, 0);
+    padding: 6px;
+}
+
+ul.nav-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-list li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+li a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+figure.recipe-image {
+margin-bottom: 2rem;}
+
+.recipe-image img {
+    width: 300px;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+div.description {
+    margin-bottom: 2rem;
+}
+
+section.ingredients,
+section.steps {
+    margin-bottom: 2rem;
+}
+
+section.ingredients {
+    background-color: rgba(142, 66, 0, 0.265);
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.ingredients ul,
+.steps ol {
+    padding: 0 1rem;
+}
+
+ul li{
+    color: rgb(142, 66, 0);
+}
+
+ol li {
+    margin-bottom: 1rem;
+}
+
+
