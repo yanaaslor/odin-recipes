@@ -1,37 +1,64 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Odin Recipes</title>
-  </head>
-  <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li>
-        <a
-          href="./recipes/gyudon.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Gyudon</a
-        >
-      </li>
-      <li>
-        <a
-          href="./recipes/hamburg.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Hamburg Steak</a
-        >
-      </li>
-      <li>
-        <a
-          href="./recipes/katsudon.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Katsudon</a
-        >
-      </li>
-    </ul>
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./style.css">
+
+		<title>Odin Recipes</title>
+	</head>
+	<body>
+
+    <header>
+      <h1 class="title">Odin Recipes</h1>
+      <div class="quote-container">
+        <q cite="https://www.consciouslykosher.com/blog/real-food-is-ingredients" >Real food doesn't have ingredients, real food is ingredients
+        </q>
+        <p>&mdash;James Oliver</p>
+      </div>
+    </header>
+
+    <main>
+      <ul class="recipe-list">
+
+        <li>
+          <a href="./recipes/gyudon.html" target="_blank" rel="noopener noreferrer">
+            <figure class="recipe-image">
+              <img class="img-gyudon" src="https://www.allrecipes.com/thmb/CQXM0hgqxMYXNd0scxLJB80PwoM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/6869394-34d58b70225c469aa3bc85d80c9eee7e.jpg" alt="an image of a Japanese Gyudon in a bowl on a desk">
+
+              <figcaption>
+                Beef Gyudon Bowl
+              </figcaption>
+            </figure>
+          </a>
+        </li>
+
+        <li>
+          <a href="./recipes/hamburg.html" target="_blank" rel="noopener noreferrer">
+            <figure class="recipe-image">
+              <img class="img-hamburg" src="https://www.allrecipes.com/thmb/1bDKTWWrN936iUVruY2FAjC5gx0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/8832146-4f23e9b70d9047c3b079df2f12299ceb.jpg" alt="an image of a Japanese Gyudon in a bowl on a desk">
+
+              <figcaption>
+                Hamburg Steak
+              </figcaption>
+            </figure>
+          </a>
+        </li>
+
+        <li>
+          <a href="./recipes/katsudon.html" target="_blank" rel="noopener noreferrer">
+            <figure class="recipe-image">
+              <img class="img-katsudon" src="https://christieathome.com/wp-content/uploads/2023/11/katsudon2.jpg" alt="an image of a Japanese Gyudon in a bowl on a desk">
+
+              <figcaption>
+                Pork Katsudon
+              </figcaption>
+            </figure>
+          </a>
+        </li>
+
+		  </ul>
+    </main>
+	
+	</body>
 </html>
